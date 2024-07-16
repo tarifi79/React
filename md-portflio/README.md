@@ -1,6 +1,6 @@
-# My React App
+# MD Portfolio.
 
-This is a React application that features a navigation bar with a moving underline on hover, a contact form that uses EmailJS to send emails, and a dark mode/light mode toggle feature.
+This is a React application that features a navigation bar with a moving underline on hover, a contact form that uses EmailJS to send emails.
 
 ## Features
 
