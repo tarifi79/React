@@ -37,21 +37,55 @@ Follow these instructions to set up and run the project on your local machine.
 
 3. Create a .env file in the root directory of the project and add your EmailJS environment variables:
 
-```js
-VITE_EMAILJS_USER_ID = your_public_key;
-VITE_EMAILJS_SERVICE_ID = your_emailjs_service_id;
-VITE_EMAILJS_TEMPLATE_ID = your_emailjs_template_id;
-```
+   ```js
+   VITE_EMAILJS_USER_ID = your_public_key;
+   VITE_EMAILJS_SERVICE_ID = your_emailjs_service_id;
+   VITE_EMAILJS_TEMPLATE_ID = your_emailjs_template_id;
+   ```
 
 4. Run the app
    Start your development server!
 
-```sh
-npm run dev
-# or
-yarn dev
+   ```sh
+   npm run dev
+   # or
+   yarn dev
 
-```
+   ```
+
+## Project Structure
+
+    ```plaintext
+    md-portfolio
+    ├── components/
+    │   ├── Footer.jsx
+    │   ├── Footer.module.css
+    │   ├── NavBar.jsx
+    │   ├── NavBar.module.css
+    │   ├── Spinner.jsx
+    │   ├── Spinner.module.css
+    ├── pages/
+    │   ├── About.jsx
+    │   ├── About.module.css
+    │   ├── Contact.jsx
+    │   ├── Contact.module.css
+    │   ├── Home.jsx
+    │   ├── Home.module.css
+    │   ├── Projects.jsx
+    │   ├── Projects.module.css
+    │   ├── Skills.jsx
+    │   ├── Skills.module.css
+    ├── App.jsx
+    ├── index.css
+    ├── main.jsx
+    ├── .env
+    ├── .eslintrc.cjs
+    ├── .gitignore
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
+    ```
 
 ### Summary
 
