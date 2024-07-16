@@ -57,7 +57,7 @@ Follow these instructions to set up and run the project on your local machine.
 
 Here is an overview of the project structure:
 
-````plaintext
+```plaintext
     md-portfolio
     ├── components/
     │   ├── Footer.jsx
@@ -87,9 +87,4 @@ Here is an overview of the project structure:
     ├── package-lock.json
     ├── package.json
     └── README.md
-    ```
-
-### Summary
-
-This README file provides a comprehensive guide to your React application, including installation instructions, usage details, and information about the various features. If you need any further customization or additional sections, feel free to ask!
-````
+```
