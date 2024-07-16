@@ -55,7 +55,9 @@ Follow these instructions to set up and run the project on your local machine.
 
 ## Project Structure
 
-    ```plaintext
+Here is an overview of the project structure:
+
+````plaintext
     md-portfolio
     ├── components/
     │   ├── Footer.jsx
@@ -90,3 +92,4 @@ Follow these instructions to set up and run the project on your local machine.
 ### Summary
 
 This README file provides a comprehensive guide to your React application, including installation instructions, usage details, and information about the various features. If you need any further customization or additional sections, feel free to ask!
+````
