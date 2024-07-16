@@ -57,34 +57,34 @@ Follow these instructions to set up and run the project on your local machine.
 
 Here is an overview of the project structure:
 
-```plaintext
-    md-portfolio
-    ├── components/
-    │   ├── Footer.jsx
-    │   ├── Footer.module.css
-    │   ├── NavBar.jsx
-    │   ├── NavBar.module.css
-    │   ├── Spinner.jsx
-    │   ├── Spinner.module.css
-    ├── pages/
-    │   ├── About.jsx
-    │   ├── About.module.css
-    │   ├── Contact.jsx
-    │   ├── Contact.module.css
-    │   ├── Home.jsx
-    │   ├── Home.module.css
-    │   ├── Projects.jsx
-    │   ├── Projects.module.css
-    │   ├── Skills.jsx
-    │   ├── Skills.module.css
-    ├── App.jsx
-    ├── index.css
-    ├── main.jsx
-    ├── .env
-    ├── .eslintrc.cjs
-    ├── .gitignore
-    ├── index.html
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
-```
+    ```plaintext
+        md-portfolio
+        ├── components/
+        │   ├── Footer.jsx
+        │   ├── Footer.module.css
+        │   ├── NavBar.jsx
+        │   ├── NavBar.module.css
+        │   ├── Spinner.jsx
+        │   ├── Spinner.module.css
+        ├── pages/
+        │   ├── About.jsx
+        │   ├── About.module.css
+        │   ├── Contact.jsx
+        │   ├── Contact.module.css
+        │   ├── Home.jsx
+        │   ├── Home.module.css
+        │   ├── Projects.jsx
+        │   ├── Projects.module.css
+        │   ├── Skills.jsx
+        │   ├── Skills.module.css
+        ├── App.jsx
+        ├── index.css
+        ├── main.jsx
+        ├── .env
+        ├── .eslintrc.cjs
+        ├── .gitignore
+        ├── index.html
+        ├── package-lock.json
+        ├── package.json
+        └── README.md
+    ```
