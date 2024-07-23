@@ -1,0 +1,44 @@
+.header {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem 0; /* Reduced padding */
+  height: auto; /* Ensure height is determined by content */
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* Vertically center the items */
+  height: 100%;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.nav a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+  padding: 0.5rem 0; /* Add some vertical padding to links */
+  display: inline-block; /* Allows vertical padding on links */
+}
+
+.nav a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.nav a:global(.active) {
+  color: var(--color-selected);
+}
