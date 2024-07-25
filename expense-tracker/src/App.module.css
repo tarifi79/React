@@ -1,0 +1,40 @@
+/* src/App.module.css */
+.app {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav {
+  background-color: var(--bg-secondary);
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav a {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav a:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav li {
+    margin-bottom: 10px;
+  }
+}

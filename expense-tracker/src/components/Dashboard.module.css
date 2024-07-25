@@ -1,0 +1,86 @@
+/* components/Dashboard.module.css */
+
+.dashboard {
+  padding: 20px;
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+}
+
+.currencySelector {
+  margin-bottom: 20px;
+}
+
+.currencySelector label {
+  margin-right: 10px;
+}
+
+.currencySelector select {
+  padding: 5px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  border: 1px solid var(--text-secondary);
+  border-radius: 4px;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.summaryItem {
+  background-color: var(--bg-primary);
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.summaryItem h3 {
+  margin-top: 0;
+  color: var(--text-secondary);
+}
+
+.summaryItem p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.positive {
+  color: var(--success);
+}
+
+.negative {
+  color: var(--error);
+}
+
+.chart {
+  height: 300px;
+  margin-top: 20px;
+}
+
+.tooltip {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--text-secondary);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--bg-primary);
+  border-radius: 8px;
+}
+
+.error {
+  color: var(--error);
+}
+
+@media (max-width: 768px) {
+  .summary {
+    grid-template-columns: 1fr;
+  }
+}

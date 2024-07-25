@@ -1,0 +1,17 @@
+/* src/components/Home.module.css */
+.home {
+  text-align: center;
+}
+
+.currencyButtons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .currencyButtons {
+    flex-wrap: wrap;
+  }
+}

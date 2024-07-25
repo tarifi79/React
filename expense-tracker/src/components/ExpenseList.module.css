@@ -1,0 +1,74 @@
+/* components/ExpenseList.module.css */
+
+.expenseList {
+  padding: 20px;
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+}
+
+.currencySelector {
+  margin-bottom: 20px;
+}
+
+.currencySelector label {
+  margin-right: 10px;
+}
+
+.currencySelector select {
+  padding: 5px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  border: 1px solid var(--text-secondary);
+  border-radius: 4px;
+}
+
+.tableContainer {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--text-secondary);
+}
+
+.table th {
+  background-color: var(--bg-primary);
+  font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+  background-color: var(--bg-primary);
+}
+
+.deleteButton {
+  background-color: var(--error);
+  color: var(--text-primary);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.deleteButton:hover {
+  background-color: var(--error-hover);
+}
+
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+
+  .table th,
+  .table td {
+    padding: 8px;
+  }
+}
