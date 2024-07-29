@@ -60,35 +60,33 @@ This Task Management Application is a simple, user-friendly web app built with R
 ## Project Structure
 
     ```plaintext
-    task-manager/
-
-│
-├── public/
-│ └── vite.svg
-│
-├── src/
-│ ├── components/
-│ │ ├── TaskManager.jsx
-│ │ ├── TaskForm.jsx
-│ │ └── TaskList.jsx
-│ │
-│ ├── hooks/
-│ │ └── useTaskManager.js
-│ │
-│ ├── reducers/
-│ │ └── taskReducer.js
-│ │
-│ ├── styles/
-│ │ └── TaskManager.css
-│ │
-│ ├── App.jsx
-│ └── main.jsx
-│
-├── index.html
-├── package.json
-├── README.md
-└── vite.config.js
-
+      task-manager/
+      │
+      ├── public/
+      │   └── vite.svg
+      │
+      ├── src/
+      │   ├── components/
+      │   │   ├── TaskManager.jsx
+      │   │   ├── TaskForm.jsx
+      │   │   └── TaskList.jsx
+      │   │
+      │   ├── hooks/
+      │   │   └── useTaskManager.js
+      │   │
+      │   ├── reducers/
+      │   │   └── taskReducer.js
+      │   │
+      │   ├── styles/
+      │   │   └── TaskManager.css
+      │   │
+      │   ├── App.jsx
+      │   └── main.jsx
+      │
+      ├── index.html
+      ├── package.json
+      ├── README.md
+      └── vite.config.js
     ```
 
 ## Contributing
