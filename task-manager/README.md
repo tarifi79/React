@@ -1,15 +1,14 @@
 # Task Manager
 
-A React-based task management application that utilizes the useReducer hook for efficient state management.
+This Task Management Application is a simple, user-friendly web app built with React and Vite. It allows users to create, edit, delete, and mark tasks as complete. The application uses React's useState and useReducer hooks for state management and custom CSS for styling.
 
 ## Features
 
 - Add new tasks
+- Edit existing tasks
 - Mark tasks as complete or active
 - Delete tasks
-- Separate lists for active and completed tasks
-- Clear all completed tasks
-- Clean, modern UI design
+- Clean and responsive user interface
 
 ## Technologies Used
 
@@ -53,16 +52,44 @@ A React-based task management application that utilizes the useReducer hook for 
 
 ## Usage
 
-- To add a task, type in the input field and press Enter or click the "Add Task" button.
-- Click on a task to toggle its completion status.
-- Use the "Delete" button next to a task to remove it.
-- The "Clear Completed" button at the bottom removes all completed tasks.
+- Adding a Task: Type your task in the input field and click "Add Task" or press Enter.
+- Editing a Task:Click the "Edit" button next to a task, enter the new task text in the prompt, and click OK.
+- Deleting a Task: Click the "Delete" button next to a task to remove it.
+- Completing a Task: Click the checkbox next to a task to mark it as complete or incomplete.
 
 ## Project Structure
 
-- `src/App.jsx`: Main component containing the application logic and structure.
-- `src/App.css`: Styles for the application.
-- `src/main.jsx`: Entry point of the application.
+    ```plaintext
+    task-manager/
+
+│
+├── public/
+│ └── vite.svg
+│
+├── src/
+│ ├── components/
+│ │ ├── TaskManager.jsx
+│ │ ├── TaskForm.jsx
+│ │ └── TaskList.jsx
+│ │
+│ ├── hooks/
+│ │ └── useTaskManager.js
+│ │
+│ ├── reducers/
+│ │ └── taskReducer.js
+│ │
+│ ├── styles/
+│ │ └── TaskManager.css
+│ │
+│ ├── App.jsx
+│ └── main.jsx
+│
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
+
+    ```
 
 ## Contributing
 
